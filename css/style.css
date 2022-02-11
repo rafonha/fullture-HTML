@@ -11,26 +11,31 @@ main {
 header{
     padding: 20px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+    min-height: 600px;
 }
 
-header.header-home {
+header.headerHome {
     background-image: url("/img/spidermanheader.jpg");
 }
 
-header.header-catalogue {
-    background-image: url("/img/spidermanheader.jpg");
+header.headerCatalogue {
+    background-image: url("/img/captainmarvelheader.jpg");
 }
 
-header.header-contact {
-    background-image: url("/img/spidermanheader.jpg");
+header.headerContact {
+    background-image: url("/img/contatoheader.jpg");
+}
+
+.logo {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
 }
 
 nav {
     display: flex;
     flex-flow: row nowrap;
-
 }
 
 nav a {
@@ -41,6 +46,19 @@ nav a {
     margin: auto 30px;
 }
 
-.logo {
-    max-width: 100px;
+nav a:hover, nav a:active {
+    border-bottom: 3px solid #fe7467;
+}
+
+.sectionTitle {
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.sectionTitle img.imgTitle {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }
