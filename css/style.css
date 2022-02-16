@@ -1,13 +1,42 @@
 body {
-    margin: 0;
-}
-
-main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-/** Header */
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #434e65;
+}
+
+/* Reusable css */
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 10px 0;
+}
+
+h2::after {
+    display: block;
+    content: '';
+    height: 3px;
+    margin: 10px auto;
+}
+
+.defaultButton {
+    background-image: linear-gradient(to bottom, #fe7467, #fc3836);
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Header */
 header{
     padding: 20px;
     background-repeat: no-repeat;
@@ -41,12 +70,13 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     margin: auto 30px;
+    padding-bottom: 10px;
 }
 
-nav a:hover, nav a:active {
+nav a.currentPage {
     border-bottom: 3px solid #fe7467;
 }
 
@@ -60,5 +90,41 @@ nav a:hover, nav a:active {
 .sectionTitle img.imgTitle {
     width: 100%;
     max-width: 300px;
+    height: auto;
+}
+
+/* Main */
+/** Home */
+/*** Section Who We Are */
+.sectionWhoWeAre {
+    padding: 20px;
+    background-image: url("/img/thor_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.titleWhoWeAre, .descriptionWhoWeAre {
+    color: white;
+}
+
+.titleWhoWeAre::after {
+    background: white;
+    width: 150px;
+}
+
+/*** Section Catalogue */
+
+.titleSectionCatalogue {
+    color: #434e65;
+}
+
+.titleSectionCatalogue::after {
+    background: #fe7467;
+    width: 120px;
+}
+
+.imgSectionCatalogue {
+    width: 600px;
     height: auto;
 }
