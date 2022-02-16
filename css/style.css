@@ -64,17 +64,12 @@ header.headerContact {
     height: auto;
 }
 
-nav {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
 nav a {
     color: white;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    margin: auto 30px;
+    margin: 0 30px;
     padding-bottom: 10px;
 }
 
@@ -86,13 +81,6 @@ nav a.currentPage {
     border-bottom: 3px solid #fe7467;
 }
 
-.sectionTitle {
-    height: 500px;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-}
-
 .sectionTitle img.imgTitle {
     width: 100%;
     height: auto;
@@ -100,19 +88,19 @@ nav a.currentPage {
 }
 
 .sectionTitle img.spidermanTitle {
-    top: 50px;
+    top: 160px;
     left: 30px;
     max-width: 260px;
 }
 
 .sectionTitle img.marvelTitle {
-    top: 150px;
+    top: 320px;
     left: 210px;
     max-width: 350px;
 }
 
 .sectionTitle img.robinTitle {
-    top: 140px;
+    top: 280px;
     left: 170px;
     max-width: 350px;
 }
