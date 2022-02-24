@@ -1,0 +1,180 @@
+/* Reusable CSS */
+p, a, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 10px 0;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.defaultButton {
+    background-image: linear-gradient(to bottom, #fe7467, #fc3836);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header.headerHome {
+    background-image: url("/img/spidermanheader.jpg");
+}
+
+header.headerCatalogue {
+    background-image: url("img/captainmarvelheader.jpg");
+}
+
+header.headerContact {
+    background-image: url("img/contatoheader.jpg");
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+nav a.currentPage {
+    border-bottom: 3px solid #fe7467;
+}
+
+header .headerImgSpiderman {
+    max-width: 320px;
+    height: auto;
+    position: relative; 
+    top: 70px;
+    left: 70px;
+}
+
+header .headerImgMarvel {
+    max-width: 320px;
+    height: auto;
+    position: relative; 
+    top: 340px;
+    left: 350px;
+}
+
+header .headerImgRobin {
+    max-width: 320px;
+    height: auto;
+    position: relative; 
+    top: 340px;
+    left: 350px;
+}
+
+/* Main */
+/** Home */
+/*** Section Who we are */
+section.sectionWhoWeAre {
+    padding: 20px;
+    background-image: url("img/thor_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+
+h2.titleWhoWeAre {
+    color: white;
+}
+
+h2.titleWhoWeAre::after {
+    display: block;
+    content: '';
+    width: 200px;
+    height: 5px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+p.textWhoWeAre {
+    color: white;
+    font-size: 20px;
+}
+
+/*** Section Catalogue */
+h2.sectionCatalogueTitle::after {
+    display: block;
+    content: '';
+    width: 200px;
+    height: 5px;
+    margin: 30px auto;
+    background-color: #fe7467;
+}
+
+img.sectionCatalogueImg {
+    width: 700px;
+    height: auto;
+}
+
+p.sectionCatalogueText {
+    font-size: 20px;
+}
+
+.sectionCatalogueButton {
+    border-radius: 15px;
+}
+
+/** Catalogue */
+/*** Section Catalogue */
+img.catalogueProductImg {
+    max-width: 500px;
+    height: auto;
+}
+
+p.catalogueProductDescription {
+    font-size: 24px;
+}
+
+p.catalogueProductPrice {
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.catalogueProductButton {
+    border-radius: 25px;
+}
+
+/** Contact */
+/*** Section Contact */
+input[type=text], input[type=email], input[type=tel], textarea {
+    background-color: #f6f6f6;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+input[type=submit] {
+    border-radius: 25px;
+}

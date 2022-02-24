@@ -2,39 +2,38 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="img/logo.png" type="image/x-icon" />
     <title>Home</title>
-    
-    <link rel="stylesheet" href="/css/style.css">
 
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="headerHome">
         <nav>
-            <img src="/img/logo.png" alt="" class="logo" />
-            <a href="/index.html" class="currentPage">Home</a>
-            <a href="/catalogue.html">Catálogo</a>
-            <a href="/contact.html">Contato</a>
+            <img src="img/logo.png" alt="logo" class="logo">
+            <ul>
+                <li><a href="index.html" class="currentPage">Home</a></li>
+                <li><a href="catalogue.html">Catálogo</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
         </nav>
-        <section class="sectionTitle">
-            <img src="/img/title_spiderman.png" alt="" class="imgTitle spidermanTitle">
-        </section>
+        <img src="img/title_spiderman.png" alt="" class="headerImgSpiderman">
     </header>
     <main>
         <section class="sectionWhoWeAre">
             <h2 class="titleWhoWeAre">Quem somos</h2>
-            <p class="descriptionWhoWeAre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="textWhoWeAre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </section>
         <section>
-            <h2 class="titleSectionCatalogue">Catálogo</h2>
-            <img src="/img/bonecos.png" alt="" class="imgSectionCatalogue">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            <button class="defaultButton buttomSectionCatalogue">Ver catálogo</button>
+            <h2 class="sectionCatalogueTitle">Catálogo</h2>
+            <img src="img/bonecos.png" alt="" class="sectionCatalogueImg">
+            <p class="sectionCatalogueText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <button class="defaultButton sectionCatalogueButton">Ver Catálogo</button>
         </section>
     </main>
-    
 </body>
 </html>

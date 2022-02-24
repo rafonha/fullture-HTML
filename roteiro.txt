@@ -1,0 +1,96 @@
+Roteiro Projeto E-commerce - Fullture HTML/CSS
+Aula 1 - Estrutura HTML
+() Instalar Snippets 
+() Criar página - Home
+    () Tags básicos HTML (head)
+    () Tags Semânticos
+        () Header
+        () Nav
+        () Main
+        () Section
+    () Adicionar menu de navegação
+    () Adicionar conteúdo
+        () Adicionar imagens
+        () Adicionar títulos
+        () Adicionar texto
+        () Adicionar botão
+() Criar página - Catálogo
+    () Tags básicos HTML (head)
+    () Tags Semânticos
+        () Header
+        () Nav
+        () Main
+        () Section
+    () Adicionar menu de navegação
+    () Adicionar conteúdo
+        () Adicionar títulos
+        () Adicionar imagens
+        () Adicionar texto
+        () Adicionar botão
+() Criar página - Contato
+    () Tags básicos HTML (head)
+    () Tags Semânticos
+        () Header
+        () Nav
+        () Main
+        () Section
+    () Adicionar menu de navegação
+    () Adicionar conteúdo
+        () Adicionar títulos
+        () Adicionar texto
+        () Adicionar formulário
+
+Aula 2 - Estilos CSS
+() Head
+    () Adicionar CSS no HTML
+    () (extra) Adicionar icon no head 
+    () (extra) Adicionar fonte do google fonts (Montserrat)
+() Falar sobre metodologias CSS e reutilização de classes
+() Página Home
+    () Header
+        () Imagem de fundo
+        () Estilo da logo
+        () Estilo dos links de navegação
+        () Estilo de página ativa
+        () Image título da página
+    () Seção "Quem somos"
+        () Imagem de fundo
+        () Estilo da Section
+        () Estilo do título
+        () Linha após título
+        () Estilo do parágrafo
+    () Seção "Catálogo"
+        () Estilo do título
+        () Linha após título
+        () Estilo da imagem dos bonecos
+        () Estilo do parágrafo
+        () Estilo do botão
+() Página Catálogo
+    () Header
+        () Imagem de fundo
+        () Estilo da logo
+        () Estilo dos links de navegação
+        () Estilo de página ativa
+        () Image título da página
+    () Seção "Catálogo"
+        () Estilo do título
+        () Linha após título
+        () Estilo da imagem do produto
+        () Estilo da descrição do produto
+        () Estilo do preço do produto
+        () Estilo do botão comprar
+() Página Contato
+    () Header
+        () Imagem de fundo
+        () Estilo da logo
+        () Estilo dos links de navegação
+        () Estilo de página ativa
+        () Image título da página
+    () Seção "Catálogo"
+        () Estilo do título
+        () Linha após título
+        () Estilo do parágrafo
+        () Estilo dos inputs
+        () Estilo do botão enviar
+
+Aula 3 - Posicionamento com Flexbox e CSS Grid
